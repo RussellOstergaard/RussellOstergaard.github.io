@@ -6,4 +6,35 @@
         <title>Fun Stuff</title>
         <link rel="stylesheet" href="css/foundation.css">
     </head>
+    <body>
+        <!-- Off Canvas menu -->
+        <div class="off-canvas-wrapper">
+            <div class="off-canvas position-top" id="offCanvas" data-off-canvas>
+                <!-- close button -->
+                <button class="close-button" aria-label="Close menu" type="button" data-close>
+                    <span aria-hidden="true">&times;</span>
+                </button>
+
+                <!-- Menu Data -->
+                <ul class="vertical menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                </ul>
+            </div>
+            <!-- Page Content -->
+            <div class="off-canvas-content" data-off-canvas-content>
+                <div class="grid-container.full">
+                    <div class="grid-x grid-padding-x">
+                        <button type="button" class="cell large-full button" data-toggle="offCanvas">Menu</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/vendor/jquery.js"></script>
+        <script src="js/vendor/what-input.js"></script>
+        <script src="js/vendor/foundation.js"></script>
+        <script type="application/javascript">
+            $(document).foundation();
+        </script>
 </html>
