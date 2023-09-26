@@ -9,7 +9,7 @@
     <body>
         <!-- Off Canvas menu -->
         <div class="off-canvas-wrapper">
-            <div class="off-canvas position-top" id="offCanvas" data-off-canvas>
+            <div class="off-canvas position-top" id="offCanvas" data-off-canvas data-transition="overlap">
                 <!-- close button -->
                 <button class="close-button" aria-label="Close menu" type="button" data-close>
                     <span aria-hidden="true">&times;</span>
@@ -23,15 +23,15 @@
             </div>
             <!-- Page Content -->
             <div class="off-canvas-content" data-off-canvas-content>
-                <div class="grid-container.full">
+                <div class="grid-container full">
                     <div class="grid-x grid-padding-x">
-                        <button type="button" class="cell large-full button" data-toggle="offCanvas">Menu</button>
+                        <button type="button" class="cell large-auto button" data-toggle="offCanvas">Menu</button>
                     </div>
                 </div>
             </div>
             <div class="media-object stack-for-small">
                 <div class="media-object-section">
-                    <div class="thumbnail">
+                    <div class="thumbnail image">
                         <!-- headshot goes here -->
                         <img src="">
                     </div>
