@@ -16,6 +16,7 @@
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
+  background-color: #D3D3D3;
 }
 
 body {
@@ -313,6 +314,7 @@ textarea {
   .grid-container {
     padding-right: 0.9375rem;
     padding-left: 0.9375rem;
+    background-color: #D3D3D3;
   }
 }
 .grid-container.fluid {
