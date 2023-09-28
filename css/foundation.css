@@ -28,6 +28,14 @@ h1 {
   margin: 0.67em 0;
 }
 
+.yeet{
+  font-size: 1.5em;
+}
+
+.beat{
+  text-align: right;
+}
+
 hr {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
